@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9169D3AA-4ACE-4538-B6B3-85EA48C9C255}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Furnas.GestaoSPE.Unificacao.Configuracao</RootNamespace>
+    <AssemblyName>Furnas.GestaoSPE.Unificacao.Configuracao</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>&lt;Project Location In Database&gt;</SccProjectName>
+    <SccLocalPath>&lt;Local Binding Root of Project&gt;</SccLocalPath>
+    <SccAuxPath>&lt;Source Control Database&gt;</SccAuxPath>
+    <SccProvider>Jazz Source Control Provider:{AC8810C5-F6E7-4145-83AA-FDFFF6F5506D}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Events\EventGruposEspecificos\EventGruposEspecificos.cs" />
+    <Compile Include="Events\EventListEmpresa\EventListEmpresa.cs" />
+    <Compile Include="Events\EventListGrupo\EventListGrupo.cs" />
+    <Compile Include="Events\EventPermissaoDominio\EventPermissaoDominio.cs" />
+    <Compile Include="Events\EventReceiverGrupoGerente\EventReceiverGrupoGerente.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Events\EventGruposEspecificos\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{baf2e29d-f006-4c7a-a1bd-a334427302a5}</SharePointProjectItemId>
+    </None>
+    <None Include="Events\EventListEmpresa\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c816b54a-18e3-4318-8c83-e812e01308e0}</SharePointProjectItemId>
+    </None>
+    <None Include="Events\EventListGrupo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{501c7656-d1b6-4835-a5e1-858e4435ab99}</SharePointProjectItemId>
+    </None>
+    <None Include="Events\EventPermissaoDominio\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2d4c1301-5ba8-4948-82ed-6b0c69b10658}</SharePointProjectItemId>
+    </None>
+    <None Include="Events\EventReceiverGrupoGerente\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c6790541-94c4-4947-a070-9625d4ba98ab}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Events\Events.feature">
+      <FeatureId>{a416b0c3-ec4c-4e3a-9cd7-657a4fceed35}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{6c641d2d-24a1-40b8-87eb-75a923bce12b}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Furnas.GestaoSPE.Unificacao.Base\Furnas.GestaoSPE.Unificacao.Base.csproj">
+      <Project>{83c02098-f026-4f79-8e3f-8aa07a3178c2}</Project>
+      <Name>Furnas.GestaoSPE.Unificacao.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Events\EventGruposEspecificos\Elements.xml" />
+    <Content Include="Events\EventListEmpresa\Elements.xml" />
+    <Content Include="Events\EventListGrupo\Elements.xml" />
+    <Content Include="Events\EventPermissaoDominio\Elements.xml" />
+    <Content Include="Events\EventReceiverGrupoGerente\Elements.xml" />
+    <Content Include="Features\Events\Events.Template.xml">
+      <DependentUpon>Events.feature</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

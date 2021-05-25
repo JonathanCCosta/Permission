@@ -1,0 +1,10 @@
+C:\RTC\PPF1\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\bin\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.dll
+C:\RTC\PPF1\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\bin\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.pdb
+C:\RTC\PPF1\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.csprojResolveAssemblyReference.cache
+C:\RTC\PPF1\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.dll
+C:\RTC\PPF1\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.pdb
+C:\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\bin\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.dll
+C:\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\bin\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.pdb
+C:\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.csprojResolveAssemblyReference.cache
+C:\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.dll
+C:\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao\Furnas.GestaoSPE.Unificacao.Configuracao\obj\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.pdb

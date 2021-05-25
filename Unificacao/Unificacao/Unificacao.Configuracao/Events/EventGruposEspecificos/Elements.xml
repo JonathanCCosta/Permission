@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/GruposEspecificos">
+      <Receiver>
+        <Name>EventGruposEspecificosItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventGruposEspecificosItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventGruposEspecificosItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventGruposEspecificosItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventGruposEspecificosItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventGruposEspecificosItemDeleted</Name>
+        <Type>ItemDeleted</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventGruposEspecificos.EventGruposEspecificos</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6c641d2d-24a1-40b8-87eb-75a923bce12b" solutionId="6c641d2d-24a1-40b8-87eb-75a923bce12b" resetWebServer="false" sharePointProductVersion="15.0" name="Furnas.GestaoSPE.Unificacao.Configuracao" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Furnas.GestaoSPE.Unificacao.Base.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\Furnas.GestaoSPE.Unificacao.Base\bin\Debug\Furnas.GestaoSPE.Unificacao.Base.dll" />
+  </assemblies>
+  <features>
+    <featureReference itemId="a416b0c3-ec4c-4e3a-9cd7-657a4fceed35" />
+  </features>
+</package>

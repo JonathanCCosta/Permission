@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/PermissaoDominio">
+      <Receiver>
+        <Name>EventPermissaoDominioItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventPermissaoDominioItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventPermissaoDominioItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventPermissaoDominioItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventPermissaoDominioItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventPermissaoDominioItemDeleted</Name>
+        <Type>ItemDeleted</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventPermissaoDominio.EventPermissaoDominio</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

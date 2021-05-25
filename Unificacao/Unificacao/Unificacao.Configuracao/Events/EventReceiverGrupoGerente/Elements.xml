@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/GruposGerente">
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemAdded</Name>
+        <Type>ItemAdded</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>EventReceiverGrupoGerenteItemDeleted</Name>
+        <Type>ItemDeleted</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>Furnas.GestaoSPE.Unificacao.Configuracao.Events.EventReceiverGrupoGerente.EventReceiverGrupoGerente</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

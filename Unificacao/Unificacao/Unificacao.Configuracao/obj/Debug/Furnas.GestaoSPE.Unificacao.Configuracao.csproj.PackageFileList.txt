@@ -1,0 +1,1 @@
+bin\Debug\Furnas.GestaoSPE.Unificacao.Configuracao.wsp
